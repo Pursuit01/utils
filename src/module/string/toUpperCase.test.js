@@ -21,5 +21,6 @@ describe('test toUpperCase', () => {
 })
 
 function dj (){
-  console.log('666')
+  console.log(666)
+  console.log(777)
 }
