@@ -1,6 +1,6 @@
 // @ts-check
 import { isRange } from '../number/isRange'
-import { dateConstants } from './DateConstants'
+import { dateConstants } from './dateConstants'
 
 /**
  * 一天标准的毫秒数

@@ -27,11 +27,11 @@ export default [
       // 打包的文件
       file: calcPath(`../dist/${name}.min.js`),
       // 打包的格式，umd 支持 commonjs/amd/life 三种方式
-      format: 'umd'
+      format: 'commonjs'
     },
     plugins: [
       // 引入 eslint 插件，必须在 babel 之前引入，因为 babel 编译之后的代码未必符合 eslint 规范，eslint 仅针对我们 [原本] 的代码
-      eslint(),
+      // eslint(),
       resolve(),
       commonjs(),
       // 引入 babel 插件
