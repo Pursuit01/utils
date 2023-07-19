@@ -19,3 +19,6 @@ describe('test toUpperCase', () => {
     expect(toUpperCase()).toBe(undefined)
   })
 })
+function name(params) {
+  console.log(789654)
+}
